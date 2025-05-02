@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
                 AppNavigation(
                     darkTheme = darkTheme.value,
                     toggleTheme = { darkTheme.value = !darkTheme.value },
-                ) // ← handles everything including nav and UI
+                )// ← handles everything including nav and UI
             }
         }
     }
